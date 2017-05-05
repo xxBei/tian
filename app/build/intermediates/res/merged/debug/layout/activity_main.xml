@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<EditText 
+	    android:id="@+id/cityInput"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="输入城市"
+	    />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20px"
+        android:text="Button" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        />
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        />
+	
+</LinearLayout>

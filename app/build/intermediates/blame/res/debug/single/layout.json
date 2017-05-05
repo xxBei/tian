@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launch.xml",
+        "source": "D:\\android\\tian\\app\\src\\main\\res\\layout\\activity_launch.xml"
+    },
+    {
+        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\android\\tian\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\android\\tian\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]
