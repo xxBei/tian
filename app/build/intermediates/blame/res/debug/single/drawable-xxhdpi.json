@@ -8,7 +8,19 @@
         "source": "D:\\android\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\launch.png"
     },
     {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\launch.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\launch.png"
+    },
+    {
         "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\weather.png",
         "source": "D:\\android\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\weather.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\weather.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\weather.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]
