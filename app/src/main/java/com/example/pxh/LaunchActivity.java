@@ -21,8 +21,6 @@ public class LaunchActivity extends Activity{
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);//隐藏状态栏
         setContentView(R.layout.activity_launch);
 
-        //再次点击返回按钮退出程序
-
 
         //启动页
         Integer time = 4000;//设置等待时间，4秒

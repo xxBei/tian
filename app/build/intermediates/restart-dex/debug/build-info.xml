@@ -6,8 +6,8 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1493956023576"
-    token="-6180791136891826091"
+    timestamp="1493971184339"
+    token="-608917655173874080"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -23,61 +23,58 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="D:\android\workspace\tian\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1493955412167"
+        timestamp="1493970981253"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\tian\app\build\outputs\apk\app-debug.apk"
+            location="D:\android\workspace\tian\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1493955574026"
+        timestamp="1493971184339"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\android\tian\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\android\tian\app\build\outputs\apk\app-debug.apk"
+            location="D:\android\workspace\tian\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1493956023576"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

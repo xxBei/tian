@@ -20,8 +20,8 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.activity_login);
 
         login = (Button)findViewById(R.id.login);
-        user = (EditText)findViewById(R.id.user);
-        pass = (EditText)findViewById(R.id.pass);
+//        user = (EditText)findViewById(R.id.user);
+//        pass = (EditText)findViewById(R.id.pass);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,5 +50,6 @@ public class LoginActivity extends Activity {
             }
             return super.onKeyDown(keyCode, event);
     }
+
 }
 

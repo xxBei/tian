@@ -2,9 +2,5 @@
     {
         "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
         "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
-        "source": "D:\\android\\tian\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     }
 ]

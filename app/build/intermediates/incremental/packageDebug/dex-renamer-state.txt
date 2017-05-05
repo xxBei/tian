@@ -1,7 +1,7 @@
-#Fri May 05 11:36:58 CST 2017
-base.0=D\:\\android\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e94157d10d37f740b181278149791aa1523e358d
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\android\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f9c693ed6d011871a8463ba914ec227eabc592b4\\classes.dex
-base.1=D\:\\android\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f9c693ed6d011871a8463ba914ec227eabc592b4
-file.0=D\:\\android\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e94157d10d37f740b181278149791aa1523e358d\\classes.dex
+#Fri May 05 15:59:44 CST 2017
+base.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c4b5f23fbcc1f64b7306fac1a1eae569dd66f0b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9fbe5ecd7e5e2f4700d4e16d49f065f637fc3af4\\classes.dex
+base.1=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9fbe5ecd7e5e2f4700d4e16d49f065f637fc3af4
+file.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c4b5f23fbcc1f64b7306fac1a1eae569dd66f0b\\classes.dex

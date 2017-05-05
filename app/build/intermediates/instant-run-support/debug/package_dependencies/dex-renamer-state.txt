@@ -1,4 +1,4 @@
-#Fri May 05 11:36:58 CST 2017
-base.0=D\:\\android\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab
+#Fri May 05 15:56:26 CST 2017
+base.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab
 renamed.0=classes.dex
-file.0=D\:\\android\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab\\classes.dex
+file.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab\\classes.dex

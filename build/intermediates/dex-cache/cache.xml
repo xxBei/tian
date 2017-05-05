@@ -3,30 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\android\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\android\tian\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\android\workspace\tian\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="D:\android\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e94157d10d37f740b181278149791aa1523e358d\classes.dex" />
+        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c4b5f23fbcc1f64b7306fac1a1eae569dd66f0b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\android\tian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\android\workspace\tian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="17f6453704db6a1416454bf9461f259e78cb2055">
-        <dex dex="D:\android\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f9c693ed6d011871a8463ba914ec227eabc592b4\classes.dex" />
+        sha1="8bd2a7dacfc6a1f1b359a2cb3c5d2fc01a74cc9f">
+        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9fbe5ecd7e5e2f4700d4e16d49f065f637fc3af4\classes.dex" />
     </item>
 
 </items>

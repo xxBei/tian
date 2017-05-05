@@ -22,6 +22,7 @@ import org.json.JSONObject;
 import com.exampe.pxh.url.TargetUrl;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -29,8 +30,10 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,9 +44,11 @@ public class MainActivity extends Activity implements OnClickListener{
 	private Handler handler;
 	private EditText cityInput;
 	private TextView tv,tv1,tv2,tv3;
+	private ImageView backBtn,menuBtn;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);//Òþ²Ø±êÌâÀ¸
 		setContentView(R.layout.activity_main);
 		initView();
 		handler = new Handler(){
@@ -108,12 +113,12 @@ public class MainActivity extends Activity implements OnClickListener{
 		tv1 = (TextView)findViewById(R.id.tv1);
 		tv2 = (TextView)findViewById(R.id.tv2);
 		tv3 = (TextView)findViewById(R.id.tv3);
-		
-		
+		backBtn = (ImageView)findViewById(R.id.backBtn);
+		menuBtn = (ImageView)findViewById(R.id.menuBtn);
 		
 		btn.setOnClickListener(this);
-		
-		
+		backBtn.setOnClickListener(this);
+		menuBtn.setOnClickListener(this);
 	}
 	@Override
 	public void onClick(View v) {
@@ -134,7 +139,9 @@ public class MainActivity extends Activity implements OnClickListener{
 				}).start();
 			}
 			break;
-
+			case R.id.backBtn:
+				Intent i = new Intent(MainActivity.this,LoginActivity.class);
+				startActivity(i);
 		default:
 			break;
 		}

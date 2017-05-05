@@ -1,23 +1,27 @@
 [
     {
-        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
-        "source": "D:\\android\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\launch.png",
-        "source": "D:\\android\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\launch.png"
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\menu.png"
     },
     {
         "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\launch.png",
         "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\launch.png"
     },
     {
-        "merged": "D:\\android\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\weather.png",
-        "source": "D:\\android\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\weather.png"
-    },
-    {
         "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\weather.png",
         "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\weather.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bg.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\bg.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\back.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\login_bg.png",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\drawable-xxhdpi\\login_bg.png"
     },
     {
         "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
