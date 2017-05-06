@@ -9,37 +9,34 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-/**
- * Created by Administrator on 2017/5/4.
- */
 
-public class LaunchActivity extends Activity{
+public class LaunchActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);//Òş²Ø±êÌâÀ¸
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);//Òş²Ø×´Ì¬À¸
+        requestWindowFeature(Window.FEATURE_NO_TITLE);//éšè—æ ‡é¢˜æ 
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//éšè—çŠ¶æ€æ 
         setContentView(R.layout.activity_launch);
 
 
-        //Æô¶¯Ò³
-        Integer time = 4000;//ÉèÖÃµÈ´ıÊ±¼ä£¬4Ãë
+        //å¯åŠ¨é¡µ
+        Integer time = 4000;//è®¾ç½®ç­‰å¾…æ—¶é—´ï¼Œ4ç§’
         Handler handler = new Handler();
-        //µ±¼ÆÊ±½áÊøÊ±£¬Ìø×ªÖÁÖ÷½çÃæ
+        //å½“è®¡æ—¶ç»“æŸæ—¶ï¼Œè·³è½¬è‡³ä¸»ç•Œé¢
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(LaunchActivity.this,LoginActivity.class);
+                Intent intent = new Intent(LaunchActivity.this, LoginActivity.class);
                 startActivity(intent);
                 LaunchActivity.this.finish();
             }
-        },time);
+        }, time);
 
-        //´¦ÀíºÄÊ±ÈÎÎñºó»á×Ô¶¯Ìø×ªµ½µÇÂ½Ò³Ãæ
+        //å¤„ç†è€—æ—¶ä»»åŠ¡åä¼šè‡ªåŠ¨è·³è½¬åˆ°ç™»é™†é¡µé¢
         /*new Thread(new Runnable() {
             @Override
             public void run() {
-                //ÒÔÏÂÓÃÓÚ´¦ÀíºÄÊ±ÈÎÎñ£¬ÈçÍøÂçÊı¾İ¼ÓÔØ
+                //ä»¥ä¸‹ç”¨äºå¤„ç†è€—æ—¶ä»»åŠ¡ï¼Œå¦‚ç½‘ç»œæ•°æ®åŠ è½½
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {

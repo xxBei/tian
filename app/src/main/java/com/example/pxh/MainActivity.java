@@ -39,151 +39,151 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity implements OnClickListener{
-	private Button btn;
-	private String result,city,TAG;
-	private Handler handler;
-	private EditText cityInput;
-	private TextView tv,tv1,tv2,tv3;
-	private ImageView backBtn,menuBtn;
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		this.requestWindowFeature(Window.FEATURE_NO_TITLE);//Òş²Ø±êÌâÀ¸
-		setContentView(R.layout.activity_main);
-		initView();
-		handler = new Handler(){
-			public void handleMessage(Message msg){
-				if(result != null){
-					try {
-						JSONObject datajson = new JSONObject(result);//µÚÒ»²½¡¢½«string¸ñÊ½×ª»»»Øjson¸ñÊ½
-						
-						JSONArray results = datajson.getJSONArray("results");//»ñÈ¡resultsÊı×é
-//					
-						JSONObject city = results.getJSONObject(0);
-						String currentCity = city.getString("currentCity");//»ñÈ¡cityÃû×Ö
-						String pm25 = city.getString("pm25");//»ñÈ¡pm25
-						Log.i(TAG, "³ÇÊĞ"+currentCity+" pm25 "+pm25);//²âÊÔ³ÇÊĞºÍpm25
-						tv.setText("³ÇÊĞ:"+currentCity+"\n"+"pm25:"+pm25);
-						JSONArray index = city.getJSONArray("index");//»ñÈ¡indexÀïÃæµÄJSONArray
-						//»ñÈ¡´©ÒÂ
-						JSONObject cy = index.getJSONObject(0);
-						String titlec = cy.getString("title");
-						String zsc = cy.getString("zs");
-						String tiptc = cy.getString("tipt");
-						String desc = cy.getString("des");
-						//»ñÈ¡Ï´³µ
-						JSONObject xc = index.getJSONObject(1);
-						String titlex = xc.getString("title");
-						String zsx = xc.getString("zs");
-						String tiptx = xc.getString("tipt");
-						String desx = xc.getString("des");
-						Log.i(TAG, "£¡£¡£¡£¡£¡£¡£¡£¡£¡"+titlec+zsc+tiptc+desc);//²âÊÔ´©ÒÂ
-						tv1.setText(titlec+":"+zsc+"\n"+tiptc+":"+desc);
-						Log.i(TAG, "£¡£¡£¡£¡£¡£¡£¡£¡£¡"+titlex+zsx+tiptx+desx);
-						tv2.setText(titlex+":"+zsx+"\n"+tiptx+":"+desx);
-						//......
+    private Button btn;
+    private String result,city,TAG;
+    private Handler handler;
+    private EditText cityInput;
+    private TextView tv,tv1,tv2,tv3;
+    private ImageView backBtn,menuBtn;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);//éšè—æ ‡é¢˜æ 
+        setContentView(R.layout.activity_main);
+        initView();
+        handler = new Handler(){
+            public void handleMessage(Message msg){
+                if(result != null){
+                    try {
+                        JSONObject datajson = new JSONObject(result);//ç¬¬ä¸€æ­¥ã€å°†stringæ ¼å¼è½¬æ¢å›jsonæ ¼å¼
+
+                        JSONArray results = datajson.getJSONArray("results");//è·å–resultsæ•°ç»„
+//
+                        JSONObject city = results.getJSONObject(0);
+                        String currentCity = city.getString("currentCity");//è·å–cityåå­—
+                        String pm25 = city.getString("pm25");//è·å–pm25
+                        Log.i(TAG, "åŸå¸‚"+currentCity+" pm25 "+pm25);//æµ‹è¯•åŸå¸‚å’Œpm25
+                        tv.setText("åŸå¸‚:"+currentCity+"\n"+"pm25:"+pm25);
+                        JSONArray index = city.getJSONArray("index");//è·å–indexé‡Œé¢çš„JSONArray
+                        //è·å–ç©¿è¡£
+                        JSONObject cy = index.getJSONObject(0);
+                        String titlec = cy.getString("title");
+                        String zsc = cy.getString("zs");
+                        String tiptc = cy.getString("tipt");
+                        String desc = cy.getString("des");
+                        //è·å–æ´—è½¦
+                        JSONObject xc = index.getJSONObject(1);
+                        String titlex = xc.getString("title");
+                        String zsx = xc.getString("zs");
+                        String tiptx = xc.getString("tipt");
+                        String desx = xc.getString("des");
+                        Log.i(TAG, "ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼"+titlec+zsc+tiptc+desc);//æµ‹è¯•ç©¿è¡£
+                        tv1.setText(titlec+":"+zsc+"\n"+tiptc+":"+desc);
+                        Log.i(TAG, "ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼"+titlex+zsx+tiptx+desx);
+                        tv2.setText(titlex+":"+zsx+"\n"+tiptx+":"+desx);
+                        //......
 						/*
-						 * weather_data£¬Î´À´¼¸Ìì
+						 * weather_dataï¼Œæœªæ¥å‡ å¤©
 						 */
-						JSONArray weather_data = city.getJSONArray("weather_data");
-						//»ñÈ¡Ã÷Ìì
-						JSONObject today = weather_data.getJSONObject(0);
-						String date0 = today.getString("date");
-						String dayPictureUrl0 = today.getString("dayPictureUrl");
-						String nightPictureUrl0 = today.getString("nightPictureUrl");
-						String weather0 = today.getString("weather");
-						String wind0 = today.getString("wind");
-						String temperature0 = today.getString("temperature");
-						Log.i(TAG, "!!!!!!!!!"+date0+dayPictureUrl0+nightPictureUrl0+weather0+wind0+temperature0);
-						tv3.setText("½ñÌì:"+date0+"\n"+"ÊµÊ±:"+weather0+"\n"+"·çÁ¦£º"+wind0+"\n"+"ÎÂ¶È·¶Î§:"+temperature0);
-						
-					} catch (JSONException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
-				super.handleMessage(msg);
-			}
-		};
-	}
-	private void initView(){
-		cityInput = (EditText)findViewById(R.id.cityInput);
-		btn = (Button)findViewById(R.id.btn);
-		tv = (TextView)findViewById(R.id.tv);
-		tv1 = (TextView)findViewById(R.id.tv1);
-		tv2 = (TextView)findViewById(R.id.tv2);
-		tv3 = (TextView)findViewById(R.id.tv3);
-		backBtn = (ImageView)findViewById(R.id.backBtn);
-		menuBtn = (ImageView)findViewById(R.id.menuBtn);
-		
-		btn.setOnClickListener(this);
-		backBtn.setOnClickListener(this);
-		menuBtn.setOnClickListener(this);
-	}
-	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		switch (v.getId()) {
-		case R.id.btn:
-			if(cityInput.getText().toString().equals("") || cityInput.getText().toString() == null){
-				Toast.makeText(MainActivity.this, "ÇëÊäÈë³ÇÊĞ", Toast.LENGTH_LONG).show();
-			}else{
-				new Thread(new Runnable() {
-					@Override
-					public void run() {
-						// TODO Auto-generated method stub
-						send(cityInput.getText().toString());
-						Message m = handler.obtainMessage();
-						handler.sendMessage(m);
-					}
-				}).start();
-			}
-			break;
-			case R.id.backBtn:
-				Intent i = new Intent(MainActivity.this,LoginActivity.class);
-				startActivity(i);
-		default:
-			break;
-		}
-	}
-	private String send(String city){
-		String target = TargetUrl.url1+city+TargetUrl.url2; // ÒªÌá½»µÄÄ¿±êµØÖ·
-		HttpClient httpclient=new DefaultHttpClient();
-		HttpGet httpRequest = new HttpGet(target); // ´´½¨HttpGet¶ÔÏó
-		HttpResponse httpResponse = null;
-		try {
-			httpResponse = httpclient.execute(httpRequest);
-			if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) { // Èç¹ûÇëÇó³É¹¦
-				result = EntityUtils.toString(httpResponse.getEntity()).trim(); // »ñÈ¡·µ»ØµÄ×Ö·û´®
-				} 
-			else {
-				result = "fail";
-			}
-		}catch (ClientProtocolException e) {
-			// TODO: handle exception\
-			e.printStackTrace();
-		}catch (IOException e) {
-			// TODO: handle exception
-			e.printStackTrace();
-		}
-		
-		return null;
-	}
-	//ÔÙ´Îµã»÷¼´¿ÉÍË³ö
-	private long exitTime = 0;
-	@Override
-	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		if(keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN){
-			if((System.currentTimeMillis()-exitTime) > 2000){
-				Toast.makeText(getApplicationContext(), "ÔÙ´Îµã»÷¼´¿ÉÍË³ö ", Toast.LENGTH_SHORT).show();
-				exitTime = System.currentTimeMillis();
-			} else {
-				finish();
-				System.exit(0);
-			}
-			return true;
-		}
-		return super.onKeyDown(keyCode, event);
-	}
+                        JSONArray weather_data = city.getJSONArray("weather_data");
+                        //è·å–æ˜å¤©
+                        JSONObject today = weather_data.getJSONObject(0);
+                        String date0 = today.getString("date");
+                        String dayPictureUrl0 = today.getString("dayPictureUrl");
+                        String nightPictureUrl0 = today.getString("nightPictureUrl");
+                        String weather0 = today.getString("weather");
+                        String wind0 = today.getString("wind");
+                        String temperature0 = today.getString("temperature");
+                        Log.i(TAG, "!!!!!!!!!"+date0+dayPictureUrl0+nightPictureUrl0+weather0+wind0+temperature0);
+                        tv3.setText("ä»Šå¤©:"+date0+"\n"+"å®æ—¶:"+weather0+"\n"+"é£åŠ›ï¼š"+wind0+"\n"+"æ¸©åº¦èŒƒå›´:"+temperature0);
+
+                    } catch (JSONException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
+                }
+                super.handleMessage(msg);
+            }
+        };
+    }
+    private void initView(){
+        cityInput = (EditText)findViewById(R.id.cityInput);
+        btn = (Button)findViewById(R.id.btn);
+        tv = (TextView)findViewById(R.id.tv);
+        tv1 = (TextView)findViewById(R.id.tv1);
+        tv2 = (TextView)findViewById(R.id.tv2);
+        tv3 = (TextView)findViewById(R.id.tv3);
+        backBtn = (ImageView)findViewById(R.id.backBtn);
+        menuBtn = (ImageView)findViewById(R.id.menuBtn);
+
+        btn.setOnClickListener(this);
+        backBtn.setOnClickListener(this);
+        menuBtn.setOnClickListener(this);
+    }
+    @Override
+    public void onClick(View v) {
+        // TODO Auto-generated method stub
+        switch (v.getId()) {
+            case R.id.btn:
+                if(cityInput.getText().toString().equals("") || cityInput.getText().toString() == null){
+                    Toast.makeText(MainActivity.this, "è¯·è¾“å…¥åŸå¸‚", Toast.LENGTH_LONG).show();
+                }else{
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            // TODO Auto-generated method stub
+                            send(cityInput.getText().toString());
+                            Message m = handler.obtainMessage();
+                            handler.sendMessage(m);
+                        }
+                    }).start();
+                }
+                break;
+            case R.id.backBtn:
+                Intent i = new Intent(MainActivity.this,LoginActivity.class);
+                startActivity(i);
+            default:
+                break;
+        }
+    }
+    private String send(String city){
+        String target = TargetUrl.url1+city+TargetUrl.url2; // è¦æäº¤çš„ç›®æ ‡åœ°å€
+        HttpClient httpclient=new DefaultHttpClient();
+        HttpGet httpRequest = new HttpGet(target); // åˆ›å»ºHttpGetå¯¹è±¡
+        HttpResponse httpResponse = null;
+        try {
+            httpResponse = httpclient.execute(httpRequest);
+            if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) { // å¦‚æœè¯·æ±‚æˆåŠŸ
+                result = EntityUtils.toString(httpResponse.getEntity()).trim(); // è·å–è¿”å›çš„å­—ç¬¦ä¸²
+            }
+            else {
+                result = "fail";
+            }
+        }catch (ClientProtocolException e) {
+            // TODO: handle exception\
+            e.printStackTrace();
+        }catch (IOException e) {
+            // TODO: handle exception
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+    //å†æ¬¡ç‚¹å‡»å³å¯é€€å‡º
+    private long exitTime = 0;
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN){
+            if((System.currentTimeMillis()-exitTime) > 2000){
+                Toast.makeText(getApplicationContext(), "å†æ¬¡ç‚¹å‡»å³å¯é€€å‡º ", Toast.LENGTH_SHORT).show();
+                exitTime = System.currentTimeMillis();
+            } else {
+                finish();
+                System.exit(0);
+            }
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
 
 }

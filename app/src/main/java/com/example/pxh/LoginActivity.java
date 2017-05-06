@@ -16,7 +16,7 @@ public class LoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);//Òş²Ø±êÌâÀ¸
+        requestWindowFeature(Window.FEATURE_NO_TITLE);//éšè—æ ‡é¢˜æ 
         setContentView(R.layout.activity_login);
 
         login = (Button)findViewById(R.id.login);
@@ -34,13 +34,13 @@ public class LoginActivity extends Activity {
 
 
     }
-        //ÔÙ´Îµã»÷¼´¿ÉÍË³ö
+        //å†æ¬¡ç‚¹å‡»å³å¯é€€å‡º
         private long exitTime = 0;
         @Override
         public boolean onKeyDown(int keyCode, KeyEvent event) {
             if(keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN){
                 if((System.currentTimeMillis()-exitTime) > 2000){
-                    Toast.makeText(getApplicationContext(), "ÔÙ´Îµã»÷¼´¿ÉÍË³ö ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "å†æ¬¡ç‚¹å‡»å³å¯é€€å‡º ", Toast.LENGTH_SHORT).show();
                     exitTime = System.currentTimeMillis();
                 } else {
                     finish();

@@ -18,5 +18,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-
+    <drawable name="clr_normal">#ff2a65</drawable>
+    <drawable name="clr_pressed">#FFDC0843</drawable>
 </resources>

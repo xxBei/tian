@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <!--填充颜色-->
+            <solid android:color="#ff2a65"/>
+            <!--设置按钮四个角的弧度-->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="13dip"/>
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"
+                android:bottom="10dp"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <!--填充颜色-->
+            <solid android:color="#FFDC0843"/>
+            <!--设置按钮四个角的弧度-->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="13dip"/>
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"
+                android:bottom="10dp"/>
+        </shape>
+    </item>
+
+</selector>
