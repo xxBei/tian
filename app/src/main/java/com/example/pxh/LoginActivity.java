@@ -3,6 +3,7 @@ package com.example.pxh;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -20,13 +21,19 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.activity_login);
 
         login = (Button)findViewById(R.id.login);
-//        user = (EditText)findViewById(R.id.user);
-//        pass = (EditText)findViewById(R.id.pass);
+        user = (EditText)findViewById(R.id.user);
+        pass = (EditText)findViewById(R.id.pass);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String users = user.getText().toString();//获取输入的用户名
+                String passs = pass.getText().toString();//获取输入的密码
+                Log.i("tag","user:"+users+",password:"+passs);
                 Intent i = new Intent(LoginActivity.this,MainActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("username",users);
+                i.putExtra("usernames",users);
                 LoginActivity.this.startActivity(i);
                 finish();
             }

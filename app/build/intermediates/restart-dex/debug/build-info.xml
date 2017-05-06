@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494057604903"
+    timestamp="1494062726786"
     token="-608917655173874080"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494057181060"
+        timestamp="1494062616097"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\android\workspace\tian\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -78,7 +78,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494057604903"
+        timestamp="1494062726786"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\android\workspace\tian\app\build\outputs\apk\app-debug.apk"

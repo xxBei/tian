@@ -43,7 +43,7 @@ public class MainActivity extends Activity implements OnClickListener{
     private String result,city,TAG;
     private Handler handler;
     private EditText cityInput;
-    private TextView tv,tv1,tv2,tv3;
+    private TextView tv,tv1,tv2,tv3,boss;
     private ImageView backBtn,menuBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +51,9 @@ public class MainActivity extends Activity implements OnClickListener{
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏标题栏
         setContentView(R.layout.activity_main);
         initView();
+        Bundle bundle = this.getIntent().getExtras();
+        String name = bundle.getString("usernames");
+        boss.setText("欢迎："+name);
         handler = new Handler(){
             public void handleMessage(Message msg){
                 if(result != null){
@@ -78,6 +81,7 @@ public class MainActivity extends Activity implements OnClickListener{
                         String tiptx = xc.getString("tipt");
                         String desx = xc.getString("des");
                         Log.i(TAG, "！！！！！！！！！"+titlec+zsc+tiptc+desc);//测试穿衣
+
                         tv1.setText(titlec+":"+zsc+"\n"+tiptc+":"+desc);
                         Log.i(TAG, "！！！！！！！！！"+titlex+zsx+tiptx+desx);
                         tv2.setText(titlex+":"+zsx+"\n"+tiptx+":"+desx);
@@ -115,6 +119,7 @@ public class MainActivity extends Activity implements OnClickListener{
         tv3 = (TextView)findViewById(R.id.tv3);
         backBtn = (ImageView)findViewById(R.id.backBtn);
         menuBtn = (ImageView)findViewById(R.id.menuBtn);
+        boss = (TextView)findViewById(R.id.boss);
 
         btn.setOnClickListener(this);
         backBtn.setOnClickListener(this);
