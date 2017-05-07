@@ -3,12 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="D:\android\workspace\tian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\android\workspace\tian\app\libs\volley.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="5a1ca5f58f8845db4aca6763c30ac2320778774b">
-        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9fbe5ecd7e5e2f4700d4e16d49f065f637fc3af4\classes.dex" />
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_a952de3df35eb1922002714bd45bab17ca90fa44\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\android\workspace\tian\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\workspace\tian\app\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\android\workspace\tian\app\build\intermediates\pre-dexed\debug\volley_a952de3df35eb1922002714bd45bab17ca90fa44.jar" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +36,15 @@
         revision="25.0.3"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c4b5f23fbcc1f64b7306fac1a1eae569dd66f0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\workspace\tian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2a5768cf658c7c3170a787f55c39e1b76537ad3">
+        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9fbe5ecd7e5e2f4700d4e16d49f065f637fc3af4\classes.dex" />
     </item>
 
 </items>
