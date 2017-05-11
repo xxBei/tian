@@ -55,6 +55,13 @@ public class RegisteredActivity extends Activity{
                 if(signUp_users.equals("") && signUp_passs.equals("")){
                     Toast.makeText(RegisteredActivity.this,"用户名或密码不能为空！",Toast.LENGTH_SHORT).show();
                 }else{
+                    /*
+                    * GET方法用地址栏的形式来传送参数
+                    * POST方法通过getParams()方法来传递参数
+                    * */
+                    //Get方法如下：
+                    //String registered = "http://192.168.31.216:8080/weather/android/registered.jsp?suser="+signUp_users+"&spassword="+signUp_passs+"";
+                    //System.out.println(registered);
                     RequestQueue myapp = Volley.newRequestQueue(getApplicationContext());
                     StringRequest request = new StringRequest(Request.Method.POST, TargetUrl.registered, new Response.Listener<String>() {
                         @Override
