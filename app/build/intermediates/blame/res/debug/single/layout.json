@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registered.xml",
+        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_registered.xml"
+    },
+    {
         "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

@@ -41,6 +41,10 @@
             android:name=".LoginActivity"
             android:theme="@style/AppTheme">
         </activity>
+        <activity
+            android:name=".RegisteredActivity"
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>

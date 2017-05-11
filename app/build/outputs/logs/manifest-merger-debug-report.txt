@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml
@@ -54,7 +54,7 @@ ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:21:5-80
 	android:name
 		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:21:22-77
 application
-ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:23:5-44:19
+ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:23:5-48:19
 	android:label
 		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:25:9-41
 	android:allowBackup
@@ -87,3 +87,9 @@ ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:40:9-43:20
 		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:42:13-44
 	android:name
 		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:41:13-42
+activity#com.example.pxh.RegisteredActivity
+ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:theme
+		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from D:\android\workspace\tian\app\src\main\AndroidManifest.xml:45:13-47

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -32,9 +33,9 @@ public class LoginActivity extends Activity {
     private Button login;
     private EditText user,pass;
     String users,passs;
+    TextView registered;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏标题栏
         setContentView(R.layout.activity_login);
@@ -42,6 +43,15 @@ public class LoginActivity extends Activity {
         login = (Button)findViewById(R.id.login);
         user = (EditText)findViewById(R.id.user);
         pass = (EditText)findViewById(R.id.pass);
+        registered = (TextView) findViewById(R.id.registered);
+
+        registered.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LoginActivity.this,RegisteredActivity.class);
+                startActivity(i);
+            }
+        });
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
