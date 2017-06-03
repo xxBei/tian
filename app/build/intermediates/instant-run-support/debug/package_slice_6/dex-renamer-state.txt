@@ -1,4 +1,4 @@
-#Thu May 11 17:32:08 CST 2017
-base.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+#Sat Jun 03 12:53:34 CST 2017
+base.0=D\:\\Android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
-file.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
+file.0=D\:\\Android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

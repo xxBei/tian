@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registered.xml",
-        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_registered.xml"
+        "merged": "D:\\Android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launch.xml",
+        "source": "D:\\Android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_launch.xml"
     },
     {
-        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registered.xml",
+        "source": "D:\\Android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_registered.xml"
     },
     {
-        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\Android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launch.xml",
-        "source": "D:\\android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_launch.xml"
+        "merged": "D:\\Android\\workspace\\tian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Android\\workspace\\tian\\app\\src\\main\\res\\layout\\activity_login.xml"
     }
 ]

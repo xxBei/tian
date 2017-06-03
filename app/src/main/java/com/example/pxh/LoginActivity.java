@@ -70,7 +70,7 @@ public class LoginActivity extends Activity {
                                 JSONObject jsonObject = new JSONObject(s.trim());
                                 if(jsonObject.getBoolean("logins")){
                                     Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-                                    String username = jsonObject.getString("user");
+                                    String username = jsonObject.getString("suser");
                                     Bundle bundle = new Bundle();
                                     bundle.putString("usernames",username);
                                     intent.putExtras(bundle);

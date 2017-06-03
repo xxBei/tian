@@ -1,7 +1,7 @@
-#Sun May 07 18:15:59 CST 2017
-base.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_a952de3df35eb1922002714bd45bab17ca90fa44
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab\\classes.dex
-base.1=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab
-file.0=D\:\\android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_a952de3df35eb1922002714bd45bab17ca90fa44\\classes.dex
+#Sat Jun 03 12:53:34 CST 2017
+base.0=D\:\\Android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_fd52a9a9dc11ef6021ca238ae24f5e51dda70b69\\classes.dex
+base.1=D\:\\Android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_fd52a9a9dc11ef6021ca238ae24f5e51dda70b69
+file.0=D\:\\Android\\workspace\\tian\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b\\classes.dex

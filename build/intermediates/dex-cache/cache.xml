@@ -3,48 +3,57 @@
 
     <item
         is-multidex="true"
-        jar="D:\android\workspace\tian\app\libs\volley.jar"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\workspace\tian\app\libs\volley.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
-        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_a952de3df35eb1922002714bd45bab17ca90fa44\classes.dex" />
+        <dex dex="D:\Android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_fd52a9a9dc11ef6021ca238ae24f5e51dda70b69\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\android\workspace\tian\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab.jar" />
+        <dex dex="D:\Android\workspace\tian\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\android\workspace\tian\app\libs\volley.jar"
+        jar="D:\Android\workspace\tian\app\libs\volley.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
-        <dex dex="D:\android\workspace\tian\app\build\intermediates\pre-dexed\debug\volley_a952de3df35eb1922002714bd45bab17ca90fa44.jar" />
+        <dex dex="D:\Android\workspace\tian\app\build\intermediates\pre-dexed\debug\volley_fd52a9a9dc11ef6021ca238ae24f5e51dda70b69.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\android\workspace\tian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\Android\workspace\tian\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="25ace8c0d08d3fad2ef73ae7a3f781e0d8283b56">
-        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9fbe5ecd7e5e2f4700d4e16d49f065f637fc3af4\classes.dex" />
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\Android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6e5c8027a4a74eb854836df97d233fae73b4ac10\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\android\workspace\tian\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Android\workspace\tian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="D:\android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c4b5f23fbcc1f64b7306fac1a1eae569dd66f0b\classes.dex" />
+        sha1="ea59144b4641e59c02d96b39671a5b4b1e2261ef">
+        <dex dex="D:\Android\workspace\tian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_98b8c136638528f745019fe926f2967d40f5a97f\classes.dex" />
     </item>
 
 </items>
